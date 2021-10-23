@@ -113,7 +113,7 @@ def test_epoch(model, validation_data, graph, diffusion_graph, k_list=[10, 50, 1
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-epoch', type=int, default=50)
+parser.add_argument('-epoch', type=int, default=100)
 
 parser.add_argument('-batch_size', type=int, default=16)
 
